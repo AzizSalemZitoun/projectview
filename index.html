@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Esprit Smart Internship Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-shapes">
+    <svg>
+      <circle cx="120" cy="120" r="90" fill="#e83c3b22"/>
+      <circle cx="900" cy="80" r="60" fill="#b3b3b522"/>
+      <ellipse cx="700" cy="600" rx="120" ry="60" fill="#b3b3b588"/>
+      <ellipse cx="200" cy="700" rx="80" ry="40" fill="#e83c3b33"/>
+      <rect x="600" y="300" width="120" height="120" rx="60" fill="#57575733"/>
+    </svg>
+    <div class="cube" style="top:10vh;left:8vw;"></div>
+    <div class="sphere" style="top:60vh;left:70vw;"></div>
+    <div class="cube" style="top:70vh;left:80vw;width:60px;height:60px;"></div>
+    <div class="sphere" style="top:20vh;left:60vw;width:60px;height:60px;"></div>
+  </div>
+  <div class="container">
+    <h1>🎓 Esprit Smart Internship Platform</h1>
+    <div class="subtitle">
+      A full-stack web application to streamline internship management at <b>Esprit</b>.<br>
+      Connects students, mentors, companies, and coordinators in a unified digital ecosystem.
+    </div>
+
+    <div class="tech-stack">
+      <div class="tech-card">Angular</div>
+      <div class="tech-card">TypeScript</div>
+      <div class="tech-card">HTML/CSS</div>
+      <div class="tech-card">Spring Boot</div>
+      <div class="tech-card">JPA</div>
+      <div class="tech-card">RESTful Services</div>
+      <div class="tech-card">MySQL</div>
+      <div class="tech-card">Spring Security</div>
+      <div class="tech-card">JWT Auth</div>
+      <div class="tech-card">Maven</div>
+      <div class="tech-card">Postman</div>
+      <div class="tech-card">GitHub CI/CD</div>
+    </div>
+
+    <div class="features">
+      <h2>✨ Key Features </h2>
+      <ul class="feature-list">
+        <li><span class="feature-emoji">🎯</span>Role-Based Dashboards — Tailored views for students, mentors, companies, and administrators.</li>
+        <li><span class="feature-emoji">📅</span>Internship Planning — Track and manage internship stages, tasks, and evaluations.</li>
+        <li><span class="feature-emoji">📝</span>Weekly Reporting — Submit and review progress reports with feedback from supervisors.</li>
+        <li><span class="feature-emoji">📊</span>Competency Tracking — Evaluate students based on competencies at each stage.</li>
+        <li><span class="feature-emoji">📄</span>Document Generation — Automatic generation of internship conventions and evaluations.</li>
+        <li><span class="feature-emoji">📈</span>Admin Analytics — Visual dashboards for data-driven decisions.</li>
+        <li><span class="feature-emoji">🏢</span>Company Portal — Company sign-up and offer management.</li>
+        <li><span class="feature-emoji">🤖</span>AI Chatbot — Smart assistant integrated with the backend database.</li>
+        <li><span class="feature-emoji">🔁</span>Reclamation System — Handle student grievances and feedback efficiently.</li>
+        <li><span class="feature-emoji">🔐</span>Face Recognition Login — Modern and secure authentication option.</li>
+      </ul>
+    </div>
+
+    <button class="btn" id="toggle-timeline">Show Project Development</button>
+    <ul class="timeline" id="timeline" style="display:none;">
+      <li>
+        <div class="timeline-title">Internship Management Sprint</div>
+        <div class="timeline-date">2.1</div>
+        <div class="timeline-desc">
+          <b>Stories:</b> 10 | <b>Done:</b> 10 | <b>High Priority:</b> 4<br>
+          <ul>
+            <li>JWT authentication for securing follow-up endpoints</li>
+            <li>Upload internship file</li>
+            <li>List only user's internships ("stages")</li>
+            <li>Download assignment letter as PDF</li>
+            <li>Submit weekly journal entries</li>
+            <li>View journal entries by stage</li>
+            <li>Export full journal as PDF</li>
+            <li>Retrieve expert feedback on internship stage</li>
+            <li>Implement 4-step wizard UI for follow-up</li>
+            <li>Snapshot overview of follow-up page</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-title">Manage Blogs Sprint</div>
+        <div class="timeline-date">2.2</div>
+        <div class="timeline-desc">
+          <b>Stories:</b> 10 | <b>Done:</b> 10 | <b>High Priority:</b> 2<br>
+          <ul>
+            <li>Esprit manager creates, lists, edits, deletes blog posts</li>
+            <li>Student filters, comments, likes/unlikes blog posts and comments</li>
+            <li>Admin checks all blog posts and comments</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-title">Manage Complaints Sprint</div>
+        <div class="timeline-date">2.3</div>
+        <div class="timeline-desc">
+          <b>Stories:</b> 12 | <b>Done:</b> 12 | <b>High Priority:</b> 3<br>
+          <ul>
+            <li>Student submits/view reclamation, receives notifications</li>
+            <li>Admin updates status, lists/escalates reclamations</li>
+            <li>Student closes, describes, and restricts inappropriate words</li>
+            <li>Admin views reclamation history</li>
+            <li>Student receives email response</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-title">🧩 Summary Stats</div>
+        <div class="timeline-date">Current</div>
+        <div class="timeline-desc">
+          <b>Total Stories:</b> 32 | <b>Done:</b> 32 | <b>High Priority:</b> 9<br>
+          <b>Modules:</b> Follow Internships, Manage Blogs, Manage Complaints
+        </div>
+      </li>
+    </ul>
+
+    <div class="actions">
+      <a class="btn" href="https://github.com/azizjll/Projet-Integration" target="_blank">View GitHub Repository</a>
+      <button class="btn" id="videoBtn">Watch Commercial Video</button>
+    </div>
+
+    <div class="team">
+      <h3>👨‍💻 Project Team</h3>
+      <ul class="team-list">
+        <li data-link="https://github.com/amine2zz">Med Amine Ghariani</li>
+        <li data-link="https://github.com/azizjll">Aziz Chahlaoui</li>
+        <li data-link="https://github.com/shayma-haouas">Shayma haouas</li>
+        <li data-link="https://github.com/BehaDev">Jaouadi Behaeddine</li>
+        <li data-link="https://github.com/eyaridane">Eya Ridane</li>
+        <li data-link="https://github.com/AzizSalemZitoun">ZITOUN Mohamed Aziz Salem</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    &copy; 2024 Esprit Smart Internship Platform &mdash; Made with <span style="color:#e83c3b">&#10084;</span> by the team. |
+    <a href="https://github.com/azizjll/Projet-Integration" target="_blank">GitHub</a>
+    |
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to Top</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
